@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+h1 span {
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    color: gold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.6rem;
+    color: gold;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+p span {
+    color: gold;
+}
+
+/* Image styles */
+img {
+    width: 400px;
+    height: 450px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Video container */
+video {
+    display: block;
+    margin: 20px auto;
+    width: 600px;
+    height: 600px;
+}
+
+/* Social icons container */
+.social-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social-icon {
+    margin: 0 15px;
+    font-size: 2rem;
+    color: gold;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: red;
+}
